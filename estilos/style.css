@@ -83,7 +83,7 @@ main{
     background-color: #561213;
     
     width: 300px;
-    height: 300px;
+    height: 350px;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 110px;
@@ -101,7 +101,7 @@ main  h1{
 
 iframe{
     width: 280px;
-    height: 25vh;
+    height: 29vh;
     display: block;
     margin: auto;
     padding-top: 10px;
