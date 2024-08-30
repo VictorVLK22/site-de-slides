@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+/*Mobile First*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --font1: "Cedarville Cursive", Arial;
+    --font2: "Baskervvile SC";
+    --cor1:#4A583F;
+    --cor2:#561213;
+    --cor3:#D7C9BC;
+    --cor4:#836E41;
+    --cor5:#123306;
+}
+
+body{
+    background-color: var(--cor3);
+    width: 100vw;
+    height: 100vh;
+    font-family: var(--font2);
+    
+}
+header{
+    width: 100vw;
+    background-color: var(--cor2);
+    color:var(--cor3);
+}
+
+header h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 2em;
+    padding: 12px;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+nav{
+    background-color:var(--cor2);
+}
+
+#burguer{
+    background-color: --cor1;
+    color:var(--cor3);
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+
+}
+nav ul{
+    display: none;
+}
+
+nav li{
+    background-color: var(--cor2);
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    text-align: center;
+    list-style-type: none;
+    padding: 5px;
+}
+nav a{
+    color:var(--cor3);
+}
+
+nav  li:hover{
+    background-color: var(--cor3);
+    color: var(--cor2);
+}
+
+nav a{
+    text-decoration: none;
+}
+
+
+main{
+    background-color: #561213;
+    
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 110px;
+    border-radius: 15px;
+    box-shadow: 3px 6px 12px 3px rgba(0, 0, 0, 0.555);
+    
+}
+
+main  h1{
+    text-align: center;
+    padding-top: 10px;
+    color: var(--cor3);
+    
+}
+
+iframe{
+    width: 280px;
+    height: 25vh;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: var(--cor2);
+    color:var(--cor3);
+    text-align: center;
+    padding: 5px;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer img{
+    width:40px ;
+    padding: 5px 20px;
+}
+footer p {
+    padding: 5px;
+}
+
+
+
+
