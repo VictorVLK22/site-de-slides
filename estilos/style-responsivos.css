@@ -7,13 +7,23 @@
     nav {
         display: block;
         text-align: center;
+        padding-bottom: 3px;
     }
     
     nav li{
+        font-size: 1.3em;
+        background-color: var(--cor3);
+        color: var(--cor2);
         display: inline-block;
         border: 1px solid ;
-        border-radius: 3px;
+        border-radius: 10px 2px;
         margin: 0px 2px 2px 0px;
+        box-shadow: 2px 3px 3px 1px rgba(0, 0, 0, 0.342);
+    }
+
+    nav li:hover{
+        background-color: var(--cor2);
+        color: var(--cor3);
     }
 
     main{
@@ -29,5 +39,14 @@
 }
 
 @media  screen and (min-width:992px){
+    main{
+        width: 750px;
+        height: 65vh;
+    }
+    
+    iframe{
+        width: 500px;
+        height: 55vh;
+    }
 
 }

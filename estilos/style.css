@@ -20,6 +20,10 @@
 }
 
 body{
+    background-image: url(../imagens/imagem-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     background-color: var(--cor3);
     width: 100vw;
     height: 100vh;
@@ -78,14 +82,13 @@ nav a{
 
 
 main{
-    background-color: #561213;
-    
+    background-color: #561213e1;
     width: 300px;
     height: 350px;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 110px;
-    border-radius: 15px;
+    border-radius: 55px 5px;
     box-shadow: 3px 6px 12px 3px rgba(0, 0, 0, 0.555);
     
 }
@@ -118,10 +121,10 @@ footer{
 }
 
 footer img{
-    width:40px ;
-    padding: 5px 20px;
+    width:20px;
 }
 footer p {
+    font-size: 1em;
     padding: 5px;
 }
 
