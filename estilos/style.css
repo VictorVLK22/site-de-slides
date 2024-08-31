@@ -20,10 +20,11 @@
 }
 
 body{
-    background-image: url(../imagens/imagem-fundo.jpg);
+    background-image: url(../imagens/imagem-fundo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: left bottom;
     background-color: var(--cor3);
     width: 100vw;
     height: 100vh;
