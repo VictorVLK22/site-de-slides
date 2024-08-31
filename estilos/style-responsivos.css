@@ -12,18 +12,18 @@
     
     nav li{
         font-size: 1.3em;
-        background-color: var(--cor3);
-        color: var(--cor2);
+        /*background-color: var(--cor3);*/
+        color: var(--cor3);
         display: inline-block;
-        border: 1px solid ;
-        border-radius: 10px 2px;
+        border: 0px solid;
+        /*border-radius: 10px 2px;*/
         margin: 0px 2px 2px 0px;
-        box-shadow: 2px 3px 3px 1px rgba(0, 0, 0, 0.342);
+        /*box-shadow: 2px 3px 3px 1px rgba(0, 0, 0, 0.342);*/
     }
 
     nav li:hover{
-        background-color: var(--cor2);
-        color: var(--cor3);
+        font-weight: bold;
+        color: var(--cor2);
     }
 
     main{
@@ -41,7 +41,7 @@
 @media  screen and (min-width:992px){
     main{
         width: 750px;
-        height: 65vh;
+        height: 69vh;
     }
     
     iframe{
