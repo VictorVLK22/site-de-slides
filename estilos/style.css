@@ -95,7 +95,7 @@ main{
 
 main  h1{
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
     color: var(--cor3);
     
 }
@@ -105,7 +105,7 @@ iframe{
     height: 29vh;
     display: block;
     margin: auto;
-    padding-top: 10px;
+    padding-top: 30px;
     border-radius: 10px;
 }
 
